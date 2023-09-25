@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.hero {
+    padding-top: 57px;
+    padding-bottom: 75px;
+    background-color: rgba(80, 77, 77, 0.616);
+}
+
+.box__inner {
+    display: flex;
+}
+
+.text {
+    margin: 30px 35px;
+    text-align:center;
+    line-height: 25px;
+    font-size: 21px;
+}
+
+.text a {
+    text-decoration:line-through;
+    color: rgb(248, 7, 7);
+}
+
+.about__jc {
+    color: black;
+    border-radius: 7px;
+    animation-name: about__jc-an;
+    animation-duration: 5s;
+    animation-iteration-count:  21s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+}
+
+@keyframes about__jc-an {
+    30% {
+        background-color: #451db3a6;
+        color: rgb(241, 238, 8);
+    }
+    60% {
+        background-color: #f51d1d85;
+        color: rgb(8, 241, 241);
+    }
+    95% {
+        background-color: #15c933c5;
+        color: #eb0fff;
+    }
+}
+
+.about__jc span {
+    font-size: 27px;
+    padding: 2px 5px;
+    margin-top: 15px;
+    background-color: rgba(241, 221, 37, 0.336);
+    border-radius: 4px;
+    animation-name: an_jc_span;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+}
+
+@keyframes an_jc_span {
+    30% {
+        background-color: #000000cc;
+        color: rgb(8, 241, 241);
+    }
+    60% {
+        background-color: #3000b3a6;
+        color: rgb(241, 238, 8);
+    }
+    95% {
+        background-color: #ff0f0fb4;
+        color: #f3f1f3;
+    }
+} 
+
+.about__html {
+    color: black;
+    border-radius: 7px;
+    animation-name: about__html-an;
+    animation-duration: 5s;
+    animation-iteration-count:  21s;
+    animation-timing-function: linear;
+    animation-delay: 6s;
+}
+
+@keyframes about__html-an {
+    30% {
+        background-color: #f713c998;
+        color: #15c933c5;
+    }
+    60% {
+        background-color: rgba(49, 45, 45, 0.555);
+        color: rgb(136, 196, 196);
+    }
+    95% {
+        background-color: rgba(253, 250, 34, 0.562) ;
+        color: #eb0fff;
+    }
+}
+
+.about__html span {
+    font-size: 27px;
+    padding: 2px 5px;
+    background-color: #fa683c96;
+    border-radius: 4px;
+    animation-name: an_html_span;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 6s;
+}
+
+@keyframes an_html_span {
+    30% {
+        background-color: #fdfa30a8;
+        color: rgb(8, 241, 241);
+    }
+    60% {
+        background-color: #f114e68a;
+        color: rgb(241, 238, 8);
+    }
+    95% {
+        background-color: #57fa6db4;
+        color: #f3f1f3;
+    }
+} 
+
+.about__css {
+    color: black;
+    border-radius: 7px;
+    animation-name: about__css-an;
+    animation-duration: 5s;
+    animation-iteration-count:  21s;
+    animation-timing-function: linear;
+    animation-delay: 10s;
+}
+
+@keyframes about__css-an {
+    30% {
+        background-color: #f56539bd;
+        color: #f54597;
+    }
+    60% {
+        background-color: rgba(43, 207, 125, 0.781);
+        color: rgb(22, 43, 233);
+    }
+    95% {
+        background-color: rgba(132, 253, 34, 0.671) ;
+        color: #be5291;
+    }
+}
+
+.about__css span {
+    font-size: 27px;
+    padding: 2px 5px;
+    background-color: #3753f086;
+    border-radius: 4px;
+    animation-name: an_css_span;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 10s;
+}
+
+@keyframes an_css_span {
+    30% {
+        background-color: #24fc08a8;
+        color: rgb(30, 124, 124);
+    }
+    60% {
+        background-color: #f114ba8a;
+        color: rgb(8, 10, 10);
+    }
+    95% {
+        background-color: #ebee25b4;
+        color: #e934e9;
+    }
+} 
